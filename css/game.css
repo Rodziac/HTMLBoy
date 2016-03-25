@@ -1,0 +1,8 @@
+#game {
+    position: relative;
+}
+#game .tile {
+    display: inline-block;
+    margin-bottom: -3px;
+    background-size: contain;
+}

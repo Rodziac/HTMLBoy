@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CutiePatoot Boy Alpha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/interface.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/game.css">
+
+    <script src="js/third-party/GSAP/TweenMax.min.js"></script>
+    <script src="js/third-party/GSAP/plugins/ScrollToPlugin.min.js"></script>
+    <script src="js/third-party/GSAP/plugins/ColorPropsPlugin.min.js"></script>
+    <script src="js/third-party/GSAP/plugins/CSSRulePlugin.min.js"></script>
+    <script src="js/third-party/GSAP/plugins/EaselPlugin.min.js"></script>
+    <script src="js/third-party/GSAP/plugins/TextPlugin.min.js"></script>
+
+    <script src="js/application.js"></script>
+    <script src="js/modules/gameboy.js"></script>
+    <script src="js/modules/game.js"></script>
+</head>
+<body>
+<div id="siteContainer">
+    <div id="GBAContainer">
+        <div id="screenContainer">
+            <div id="screen">
+                <div id="game"></div>
+            </div>
+        </div>
+        <div id="buttonsContainer"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    gbPatoot.init();
+</script>
+</body>
+</html>
